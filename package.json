@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-criando-biblioteca",
+  "version": "1.0.0",
+  "description": "",
+  "type" : "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucashtw/NodeJS-criando-biblioteca.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucashtw/NodeJS-criando-biblioteca/issues"
+  },
+  "homepage": "https://github.com/lucashtw/NodeJS-criando-biblioteca#readme",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
