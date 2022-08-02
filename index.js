@@ -29,7 +29,7 @@ async function pegaArquivo(caminhoDoArquivo){
         trataErro(erro);
     }
 }
-
+//comentario qualquer
 //  pegaArquivo('./arquivos/texto1.md');
 // export default pegaArquivo;
 
