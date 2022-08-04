@@ -11,7 +11,7 @@ async function checaStatus(arrayURLs){
             .all(arrayURLs
                 .map(async url =>{
                     const res = await fetch(url)
-                    return res.status;
+                    return `${res.status} - ${res.statusText}`;
         }))
         return arrayStatus;
     }catch(erro){
